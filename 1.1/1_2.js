@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")({ sigint: true});
 let a = prompt('Введи первое значение: ');
 a=Number(a);
-if (!a)
+if ((!a)&&(a!==0))
 {
     console.log('Некорректный ввод!');
     return;
