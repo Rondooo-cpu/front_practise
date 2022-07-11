@@ -3,6 +3,7 @@ let a = prompt('Введи первое значение: ');
 let b = prompt('Введи второе значение: ');
 a=Number(a);
 b=Number(b);
+//обработать нули
 if (a&&b)
 {
     console.log(a);
